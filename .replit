@@ -1,0 +1,5 @@
+language = "python"
+#run = "pip install python-socketio[client] && clear && python src/ks_bot_client/__init__.py"
+run = "python3 -m pip install --upgrade build && python3 -m build"
+
+# Test PYPI Token: pypi-AgENdGVzdC5weXBpLm9yZwIkOWM5OWU2NzItZmM4YS00OTljLWE5NWUtYzRhNmU0Zjc1MTI0AAIleyJwZXJtaXNzaW9ucyI6ICJ1c2VyIiwgInZlcnNpb24iOiAxfQAABiCYRNhfS4pMXnRFfHAs1a-oqeNqLTWfGVKFhd8j1Mebrg
