@@ -1,7 +1,7 @@
 # KS-BOT-Client-Python
 
 ### Python framework for interacting with KS-BOT, without any app
-
+> SIDE NOTE: To use ks-bot-client you will need to create a user account at: [kids smit](https://www.kidssmit.com)
 __To get started simply install ks-bot-client, with the following command__
 ```Python
 
