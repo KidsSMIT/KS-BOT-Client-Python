@@ -1,2 +1,3 @@
 class LoggingInError(Exception):
   pass
+

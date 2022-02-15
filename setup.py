@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="KS-BOT-Client-Python",
-    version="2.2.2",
+    version="2.5.1",
     description="Python framework for interacting with KS-BOT, without any app",
     long_description=README,
     long_description_content_type="text/markdown",

@@ -38,7 +38,35 @@ class CustomBot(ks_bot_client.Bot):
 
     print("KS-BOT said: Timer is over, Timer: ", data)
 
+  def weather(self, data):
+    """
+      This event runs whenever the server has weather report ready for you
+    """
+    pass
 
-bot = CustomBot("codingwithcn", "Cn031705!")
+  def news(self, data):
+    """
+      This event runs whenever server has the news ready for you
+    """
+    pass
+
+  def speak(self, what_to_speak):
+    """
+      This events runs when ever the server wants you to say something
+    """
+    pass
+
+  def de_activate_smith(self, data):
+    """
+      This events runs after S.M.I.T.H has been De-Activated and KS-BOT has been activated
+    """
+    pass
+
+  def activate_smith(self, data):
+    """
+      This event runs after S.M.I.T.H has been activated
+    """
+    pass
+bot = CustomBot("<user-name>", "<password>")
 bot.run()
 bot.send_command("Hello", log=True)
