@@ -7,5 +7,5 @@ except:
   from ks_bot_client.bot import Bot
 
 if __name__ == "__main__":
-  bot =  Bot("codingwithcn", "Cn031705!s")
+  bot =  Bot("<username>", "<password>")
   bot.run()
